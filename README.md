@@ -50,4 +50,3 @@ Mở terminal chạy lệnh
 mongod
 ```
 
-    

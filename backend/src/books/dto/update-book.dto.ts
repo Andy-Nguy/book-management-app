@@ -16,7 +16,7 @@ export class UpdateBookDto {
   @IsNumber({}, { message: 'Năm xuất bản phải là số' })
   @Min(0, { message: 'Năm xuất bản không thể âm' })
   @Max(new Date().getFullYear(), {
-    message: 'Năm xuất bản không thể lớn hơn năm hiện tại',
+    message: 'Năm xuất bản không thể lớ n hơn năm hiện tại',
   })
   publishedYear: number;
 }
