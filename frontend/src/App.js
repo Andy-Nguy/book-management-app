@@ -37,8 +37,8 @@ function App() {
       <div className="container">
         <h2>📚 Book Management</h2>
         <nav>
-          <Link to="/" className="link">Home</Link>
-          <Link to="/add" className="link">Add Book</Link>
+          {/* <Link to="/" className="link">Home</Link> */}
+          <Link to="/add" className="link">Thêm Sách</Link>
         </nav>
         <Routes>
           <Route path="/" element={<BookList />} />

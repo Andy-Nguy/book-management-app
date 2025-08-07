@@ -48,5 +48,16 @@ npm start
 ```bash
 Mở terminal chạy lệnh
 mongod
+
+(Có file dữ liệu mẫu trên test.json)
 ```
 
+## Ảnh & Video Demo
+Trang chủ: Giao diện chính của ứng dụng
+<img src="screenshots\menu.jpg" alt="Trang chủ">
+
+Xem chi tiết sách
+<img src="screenshots\chi tiet.jpg" alt="Chi tiết sách">
+
+Sửa thông tin sách
+<img src="screenshots\suasach.jpg" alt="Sửa thông tin sách">
