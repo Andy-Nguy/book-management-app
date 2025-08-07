@@ -57,12 +57,12 @@ export class BooksService {
   async update(id: string, updateData: UpdateBookDto): Promise<Book> {
     this.validateObjectId(id);
 
-    // Check field rỗng hoặc toàn khoảng trắng
+    // KT field rỗng hoặc toàn khoảng trắng
     if (!updateData.title?.trim() || !updateData.author?.trim()) {
       throw new BadRequestException('Tiêu đề và tác giả không được để trống');
     }
 
-    // Check trùng title + author (ngoại trừ chính sách này)
+    // Kiểm tra trùng title + author
     const exists = await this.bookModel
       .findOne({
         title: updateData.title.trim(),
