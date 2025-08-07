@@ -51,6 +51,17 @@ mongod
 
 (Có file dữ liệu mẫu trên test.json)
 ```
+## Known Limitations
+```
+Do chưa có kiến thức về ReactJs nên giao diện còn chưa đẹp và nhiều chỗ hoạt động chưa hợp lý
+
+Môi trường cục bộ:Ứng dụng chỉ chạy trên localhost, không triển khai lên server
+
+Mặc dù đã dùng class-validator, nhưng chưa có kiểm tra phức tạp (ví dụ: độ dài tối đa của title, định dạng đặc biệt của description)
+
+Chưa có sắp xếp (sorting) hoặc tìm kiếm (search) có find by ID nhưng chỉ test bằng PostMan chứ chưa triển khai giao diện tìm kiếm
+```
+
 
 ## Ảnh & Video Demo
 Trang chủ: Giao diện chính của ứng dụng
@@ -61,3 +72,8 @@ Xem chi tiết sách
 
 Sửa thông tin sách
 <img src="screenshots\suasach.jpg" alt="Sửa thông tin sách">
+
+
+
+Sửa thông tin sách
+<img src="screenshots\" alt="Sửa thông tin sách">
