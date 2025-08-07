@@ -75,5 +75,3 @@ Sửa thông tin sách
 
 
 
-Sửa thông tin sách
-<img src="screenshots\" alt="Sửa thông tin sách">
